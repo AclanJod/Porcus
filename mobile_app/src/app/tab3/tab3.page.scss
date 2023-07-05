@@ -1,0 +1,48 @@
+ion-title{
+    color: #FFFF;
+    background-color: #386641;
+    margin: 0;
+}
+#Header_logo {
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 10px; /* Adjust the margin as needed */
+    height: 34px;
+  }
+  
+ion-toolbar {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+ion-datetime{
+    margin: 20px;
+    background-color: #FFFF;
+
+}
+ion-item{
+    border-radius: 5px;
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-top: 12px;
+    border: 2px solid #659D60;
+}
+ion-checkbox {
+    --size: 24px;
+    --checkbox-background-checked: #659D60;
+}
+  
+ion-checkbox::part(container) {
+    border-radius: 15px;
+    border: 2px solid #659D60;
+}
+#calendar{
+    background-color: #FFFF;
+    margin: 0;
+    height: 80%;
+}
+
+.a{
+    background-color: #386641;
+    margin-bottom: 100px;
+}

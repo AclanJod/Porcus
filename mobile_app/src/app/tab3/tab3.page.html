@@ -1,0 +1,53 @@
+<ion-header collapse="condense">
+  <ion-toolbar>
+    <ion-title size="medium"><img src="/assets/Header_logo.png" alt="Pig" id="Header_logo">Farm Management</ion-title>
+</ion-toolbar>
+  <div id="calendar">
+  <ion-datetime></ion-datetime>
+  </div>
+</ion-header>
+<ion-content [fullscreen]="true">
+
+  <div>
+
+    <button class="todo" (click)="div1Function()">Todo</button>
+    <button class="done" (click)="div2Function()">Done</button>
+
+  </div>
+
+  <div *ngIf="div1"  class="todo">
+
+    <ion-item>
+      <ion-checkbox justify="space-between">Task Name</ion-checkbox>
+    </ion-item>
+    <ion-item>
+      <ion-checkbox justify="space-between">Task Name</ion-checkbox>
+    </ion-item>
+    <ion-item>
+      <ion-checkbox justify="space-between">Task Name</ion-checkbox>
+    </ion-item>
+    <ion-item>
+      <ion-checkbox justify="space-between">Task Name</ion-checkbox>
+    </ion-item>
+    <ion-item>
+      <ion-checkbox justify="space-between">Task Name</ion-checkbox>
+    </ion-item>
+    <ion-item>
+      <ion-checkbox justify="space-between">Task Name</ion-checkbox>
+    </ion-item>
+    <ion-item>
+      <ion-checkbox justify="space-between">Task Name</ion-checkbox>
+    </ion-item>
+
+
+  </div>
+
+  <div *ngIf="div2" id="b" class="done">
+
+    <p>dsdgdfgd</p>
+
+  </div>
+  
+  
+</ion-content>
+

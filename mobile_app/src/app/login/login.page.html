@@ -1,0 +1,14 @@
+<ion-content [fullscreen]="true">
+  <ion-header collapse="condense">
+    <ion-toolbar>
+      <ion-title size="large" id="title">Porcus</ion-title>
+    </ion-toolbar>
+  </ion-header>
+  <div id="container1">
+    <input type="email" id="email" name="email"  placeholder='Email' required>
+    <input type="password" id="password" name="password"  placeholder='Password' required>
+
+    <button id="login_button" routerLink="/tabs">LOGIN</button>
+  </div>
+  <p>Doesn't have an account yet? <button  routerLink="/sign-up" id="redirect_signUp">Sign up</button></p>
+</ion-content>
