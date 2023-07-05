@@ -49,6 +49,7 @@ button#Sign_up_button{
     margin-left: 30px;
     margin-top: 15px;
     margin-right: 35px;
+    transform: translateY(40px);
   }
   button#redirect_signIn{
     background: #F75555;
@@ -59,13 +60,31 @@ button#Sign_up_button{
     box-shadow: 0 4px 4px rgba(0, 0, 0, 0.2)
   }
   input{
+    background-color: white;
     outline-color: #6A994E;
     width: 90%;
     height: 43px;
     border: 2px solid #6A994E;
     border-radius: 20px;
-    padding-left: 10px;
-    padding-right: 10px;
+    padding-left: 15px;
+    padding-right: 0px;
     margin-bottom: 15px;
   }
-  
+  ion-label {
+    display: flex;
+    transform: translateX(5px);
+    color: #A7C957;
+    font-weight: 550;
+  }
+  .start-icon {
+    font-size: 24px;
+    color: #A7C957;
+    transform: translate(-300px, 5px);
+    // transform: translateX(-300px);
+  }
+  .end-icon {
+    font-size: 24px;
+    color: #A7C957;
+    transform: translate(180px, -65px);
+    // transform: translateX(-300px);
+  }
