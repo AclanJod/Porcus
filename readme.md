@@ -10,3 +10,31 @@
 &nbsp;&nbsp;&nbsp;&nbsp; Manual record keeping, like the current practice that livestock industries employ as of today is prone to human error. Apart from that it imposes inefficiency as one would have to manually write their data. It also implies a lot of paper waste as one progresses to continue their piggery and the accumulation of such paper waste which is contradictory to some environmental goals.
 <p align=justify>
 &nbsp;&nbsp;&nbsp;&nbsp; To solve this problem, the proponents proposes an idea of a mobile application entitled "PORCUS: Backyard Piggery Management" which revolves managing pigs and schedules in a typical pig farming business, to help farmers with their daily farm transactions. With the use of this application, it will help farmers eliminate manual record tracking or keeping, and thus, would help limit waste by eliminating use of pen and paper. Also, by using this mobile application, management of one's piggery can be done virtually everywhere you can bring your phone to.
+
+
+<h3>What the project does?</h3> <i class="fa-sollid fa-1"></i>
+
+&nbsp;&nbsp;&nbsp;&nbsp; PORCUS is a mobile application created using Ionic and angular, and is intended for use for small farmers, specifically backyard piggery farmers to help them manage and maintain their farm. This application revolves around two main modules namely the management of pigs as well as the management of transactions, or schedules to be exact. This would greatly help farmers track their individual pigs and manage their schedules efficiently all in one device which they carry around almost every time. 
+
+<h3>How to run the project?</h3> <i class="fa-sollid fa-1"></i>
+<h3>Environment</h3>
+<h4>Installment</h4>
+```
+/* clone the project */
+git clone
+cd ionic_sample_app
+```
+<h4>Running the application</h4>
+```
+ionic serve
+/* or you can specify the browser of your choice */
+ionic serve --browser <browser_of_your_choice>
+```
+
+<h3>Why is it noteworthy?</h3> <i class="fa-sollid fa-1"></i>
+
+&nbsp;&nbsp;&nbsp;&nbsp; PORCUS aims to be one of the pioneer applications as an integration of technology within the world of agriculture. The proponents, or the developers of this project, sees this as an opportunity to improve the state of agriculture in the country by using technology. This aligns with SDG no. 8 "Decent Work and Economic Growth" as the proponents also aims for this application to be of great use to farmers to help them increase their revenue, while also improving the overall economic growth of the country. Apart from that, this project also takes inspiration from SDG no. 11 "Sustainable Cities and Communities" as the use of this application eliminates manual record keeping within a piggery. This implies the elimination of process tracking using the traditional pen and paper and thus would eliminate paper waste.
+
+<h3>Who maintains the project?</h3> <i class="fa-sollid fa-1"></i>
+
+&nbsp;&nbsp;&nbsp;&nbsp; PORCUS is maintained by its developers.
