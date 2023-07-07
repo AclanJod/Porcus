@@ -20,14 +20,14 @@
 <h3>Environment</h3>
 <h4>Installment</h4>
 ```
-/* clone the project */
-git clone
+clone the project 
+git clone https://github.com/AclanJod/Porkus_Backyard-Piggery-Management-System.git
 cd ionic_sample_app
 ```
 <h4>Running the application</h4>
 ```
 ionic serve
-/* or you can specify the browser of your choice */
+or you can specify the browser of your choice 
 ionic serve --browser <browser_of_your_choice>
 ```
 
