@@ -20,15 +20,28 @@
 ### Environment 
 #### Installment
 ```
+```
 clone the project 
+```
 git clone https://github.com/AclanJod/Porkus_Backyard-Piggery-Management-System.git
-cd ionic_sample_app
 ```
 #### Running the application
 ```
+cd mobile_app
 ionic serve
+```
 or you can specify the browser of your choice 
+```
 ionic serve --browser <browser_of_your_choice>
+```
+start server
+```
+```
+start your apache and mysql server in xampp before proceeding
+```
+cd ..
+cd server
+npm start
 ```
 
 ### Why is it noteworthy?
