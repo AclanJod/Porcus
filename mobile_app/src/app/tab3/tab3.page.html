@@ -45,7 +45,25 @@
   <div class="overlay-content">
     <h2 id="overlay_header" >Set Schedules</h2>
       <div class="task-input">
-        <ion-input [(ngModel)]="newTask" placeholder="New Task"></ion-input>
+        <ion-select [(ngModel)]="newTask" placeholder="New Task">
+        <ion-select-option value="Vaccination" >Vaccination</ion-select-option>
+        <ion-select-option value="Weighing" >Weighing</ion-select-option>
+        <ion-select-option value="Feeding" >Feeding</ion-select-option>
+        <ion-select-option value="Cleaning" >Cleaning</ion-select-option>
+        <ion-select-option value="Bedding" >Bedding</ion-select-option>
+        <ion-select-option value="Exercise" >Exercise</ion-select-option>
+        <ion-select-option value="Record Keeping" >Record Keeping</ion-select-option>
+        <ion-select-option value="Waste Management" >Waste Management</ion-select-option>
+        <ion-select-option value="Labor" >Labor</ion-select-option>
+        <ion-select-option value="Gestation" >Gestation</ion-select-option>
+        <ion-select-option value="Weaning" >Weaning</ion-select-option>
+        <ion-select-option value="Breeding" >Breeding</ion-select-option>
+        <ion-select-option value="Selling" >Selling</ion-select-option>
+        <ion-select-option value="Isolating" >Isolating</ion-select-option>
+        <ion-select-option value="Farrowing" >Farrowing</ion-select-option>
+        <ion-select-option value="Parasite Control" >Parasite Control</ion-select-option>
+        <ion-select-option value="Other" >Other</ion-select-option>
+        </ion-select>
       </div>
       <div id="calendar" class="datetime-input">
         <ion-datetime displayFormat="YYYY-MM-DDTHH:mm:ss.sssZ " pickerFormat="YYYY-MM-DDTHH:mm:ss.sssZ" [(ngModel)]="newTaskDeadline" placeholder="Task Deadline"></ion-datetime>
